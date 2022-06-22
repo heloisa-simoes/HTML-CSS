@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>tenta abrir em outros dispositivos os abre e diminua o tamanho</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagem/foto-p.png" type="image/png">
+        <source media="(max-width:1050 )" srcset="imagem/foto-m.png" type="image/png">
+        <img src="imagem/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Colocando musica pelo HTML5</h1>
+    <p>Vamos agora colocar uma música de uma forma simples</p>
+    <audio src="midia/musicaYoutube.mp3" controls autoplay></audio>
+    <h2>Mas nem sempre da maneira que colocamos, todos os disposivos são compativeís, por isso vamos colocar de outra maneira</h2>
+    <audio>
+<source src="midia/guanacast-33.mp3" controls autoplay type="audio/mpge">
+
+    </audio>
+
+
+</body>
+
+</html>
