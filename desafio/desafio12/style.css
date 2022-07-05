@@ -18,5 +18,6 @@ header {
 
 head>h1 {
     padding-top: 50px;
-    font-variant: small-caps;
+    text-transform: uppercase;
+    color: yellowgreen;
 }
