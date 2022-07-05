@@ -1,67 +1,77 @@
-@charset "utf-8";
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-html,
-body {
-    min-height: 100vh;
-    background-color: darkgrey;
-}
-
-header {
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-
-h1 {
-    padding-top: 45px;
-    text-transform: uppercase;
-}
-
-p {
-    padding-bottom: 50px;
-}
-
-head>a,
-footer a {
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-head a:hover,
-footer a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    text-align: center;
-}
-
-section.normal {
-    background-color: white;
-    color: black;
-}
-
-section.imagem {
-    background-color: black;
-    color: white;
-}
-
-section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
-    padding-left: 30px;
-}
-
-section.imagem>p {
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.137);
-}
+                            @charset "utf-8";
+                            * {
+                                margin: 0px;
+                                padding: 0px;
+                                font-size: 1em
+                            }
+                            
+                            @import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Passion+One & display=swap');
+                            html,
+                            body {
+                                min-height: 100vh;
+                                background-color: darkgrey;
+                                font-family: var(--fonte1);
+                            }
+                            
+                            header {
+                                background-color: black;
+                                color: white;
+                                text-align: center;
+                            }
+                            
+                            h1 {
+                                padding-top: 45px;
+                                text-transform: uppercase;
+                                font-family: var(--fonte2);
+                            }
+                            
+                            p {
+                                padding-bottom: 50px;
+                            }
+                            
+                            head>a,
+                            footer a {
+                                color: white;
+                                text-decoration: none;
+                                font-weight: bolder;
+                            }
+                            
+                            head a:hover,
+                            footer a:hover {
+                                text-decoration: underline;
+                            }
+                            
+                            footer {
+                                background-color: black;
+                                color: white;
+                                text-align: center;
+                                text-align: center;
+                            }
+                            
+                            section.normal {
+                                background-color: white;
+                                color: black;
+                            }
+                            
+                            section.imagem {
+                                background-color: black;
+                                color: white;
+                            }
+                            
+                            section {
+                                padding-top: 10vh;
+                                padding-bottom: 10vh;
+                                line-height: 2em;
+                                padding-left: 30px;
+                                font-family: var(--fonte1);
+                            }
+                            
+                            section.imagem>p {
+                                width: 400px;
+                                background-color: rgba(0, 0, 0, 0.137);
+                            }
+                            
+                             :root {
+                                --fonte1: "passive one, cursive";
+                                --fonte2: "verdana, ganeva, tahoma, sans-serif"
+                            }
