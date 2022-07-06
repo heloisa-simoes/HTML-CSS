@@ -6,11 +6,14 @@
                             }
                             
                             @import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Passion+One & display=swap');
-                            html,
                             body {
                                 min-height: 100vh;
-                                background-color: darkgrey;
+                                background-color: rgb(99, 97, 97);
                                 font-family: var(--fonte1);
+                            }
+                            
+                            html {
+                                background-color: darkgray;
                             }
                             
                             header {
@@ -56,6 +59,8 @@
                             section.imagem {
                                 background-color: black;
                                 color: white;
+                                background-size: cover;
+                                background-attachment: fixed;
                             }
                             
                             section {
@@ -74,4 +79,14 @@
                              :root {
                                 --fonte1: "passive one, cursive";
                                 --fonte2: "verdana, ganeva, tahoma, sans-serif"
+                            }
+                            
+                            section#img01 {
+                                background-image: url(imagens/background001.jpg);
+                                background-position: right center;
+                            }
+                            
+                            section#img02 {
+                                background-image: url(imagens/background002.jpg);
+                                background-position: right center;
                             }
